@@ -1,0 +1,21 @@
+# Dependencias y builds
+node_modules/
+dist/
+build/
+.vite/
+
+# Variables de entorno: aquí va la API key del tutor. NUNCA subirla.
+.env
+.env.*
+!.env.example
+
+# Base de datos local y logs
+*.log
+pgdata/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
